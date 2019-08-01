@@ -1,3 +1,4 @@
+import 'isomorphic-fetch';
 import RSAA from './RSAA';
 import { isRSAA, validateRSAA } from './validation';
 import { InvalidRSAA, RequestError, InternalError } from './errors';
